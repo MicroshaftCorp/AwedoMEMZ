@@ -1,2 +1,2 @@
 # AwedoMEMZ
-Finally, AwedoMEMZ is there. Build instructions and stuff will follow soon, I hope.
+Finally, AwedoMEMZ is here. Build instructions and stuff will follow soon, I hope.
